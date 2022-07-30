@@ -5,8 +5,8 @@
   </head>
   <body>
     <div class="wrap">
-      {{ partial "profile.html" . }} {{ partial "contacts.html" . }} {{ partial
-      "actions.html" . }}
+      {{ partial "profile.html" . }} {{ partial "contacts.html" . }}
+      <main class="main">{{- block "main" . }}{{ end }}</main>
     </div>
     {{ partial "footer.html" . }} {{ template
     "_internal/google_analytics_async.html" . }} {{ partial "crisp.html" . }}
