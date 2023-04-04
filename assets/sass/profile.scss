@@ -51,7 +51,10 @@
     }
   }
   .title {
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 1rem;
+    font-variant: small-caps;
+    font-weight: 400;
     color: $color-accent;
     margin: 0.8em auto;
   }
